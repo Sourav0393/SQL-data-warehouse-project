@@ -20,6 +20,7 @@ Usage Example:
 
 CREATE OR ALTER PROCEDURE bronze.load_bronze as
 Begin
+	
 	Declare @batch_start_time datetime, @batch_end_time datetime, @start_time Datetime, @end_time Datetime;
 	Begin Try
 		set @batch_start_time = getdate();
